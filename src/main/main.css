@@ -1,0 +1,11 @@
+.table-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.number {
+  grid-column: 1/1;
+}
+.state {
+  grid-column: 2/2;
+}
